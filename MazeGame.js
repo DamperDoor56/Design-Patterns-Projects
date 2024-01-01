@@ -42,3 +42,22 @@ class Room extends MapSite {
         console.log(`You are in the room: ${this.roomNumber}`)
     }
 }
+
+/**
+ * @extends MapSite
+ */
+
+class Door extends MapSite {
+    constructor(roomOne, roomTwo) {
+        super();
+        this.roomOne = roomOne;
+        this.roomTwo = roomTwo;
+        this.isOpen = false;
+    }
+    enter(currentRoom) {
+        if(this.isOpen) {
+            const room = this.getNextRoom(currentRoom);
+            room.enter();
+        }
+    }
+}
