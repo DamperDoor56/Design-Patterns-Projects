@@ -7,10 +7,6 @@ This repository contains a collection of console applications written in JavaScr
 1. [Introduction](#introduction)
 2. [Prerequisites](#prerequisites)
 3. [Installation](#installation)
-4. [Available Design Patterns](#available-design-patterns)
-5. [Usage](#usage)
-6. [Contributing](#contributing)
-7. [License](#license)
 
 ## Introduction
 
